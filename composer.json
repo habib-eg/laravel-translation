@@ -1,0 +1,37 @@
+{
+    "name": "habib-eg/laravel-translation-manager",
+    "description": "A WebUI to manage translation files for Laravel, create or update existing languages files.",
+    "keywords": ["laravel", "translation", "translation manager"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^5.5|^6|^7|^8",
+        "illuminate/translation": "^5.5|^6|^7|^8",
+        "league/flysystem": "^1.0",
+        "illuminate/http": "^5.5|^6|^7|^8",
+        "illuminate/routing": "^5.5|^6|^7|^8",
+        "tanmuhittin/laravel-google-translate": ">=2.0 <3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Habib\\TranslationManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Habib",
+            "email": "mohamedhabibwork@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Habib\\TranslationManager\\TranslationManagerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
