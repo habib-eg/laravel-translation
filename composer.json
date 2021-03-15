@@ -1,5 +1,5 @@
 {
-    "name": "habib-eg/laravel-translation",
+    "name": "habib-eg/laravel-translation-manager",
     "description": "A WebUI to manage translation files for Laravel, create or update existing languages files.",
     "keywords": ["laravel", "translation", "translation manager"],
     "license": "MIT",
