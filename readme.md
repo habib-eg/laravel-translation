@@ -20,13 +20,13 @@ A WebUI to manage translation files for Laravel.
 Add it to your `composer.json` file
 
 ```
-"Habib/laravel-translation-manager": "~0.1.0"
+"habib-eg/laravel-translation-manager": "~0.1.0"
 ```
 
 or install it via `composer`.
 
 ```
-composer require Habib/laravel-translation-manager
+composer require habib-eg/laravel-translation-manager
 ```
 
 2- Add the package service provider to `config/app.php` file, under `providers` section.
